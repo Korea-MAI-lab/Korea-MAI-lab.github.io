@@ -9,7 +9,7 @@ permalink: /publications/
 
 Peer-reviewed journal publications by Seongwook Choi and collaborators, spanning photoacoustic imaging, ultrasound, radiacoustic imaging, quantitative imaging, AI-enhanced biomedical imaging, and translational applications.
 
-<p class="ko-summary" lang="ko">MAI Lab의 연구 기반이 되는 논문들입니다. 최신 논문부터 시간 역순으로 정리했으며, 논문 제목을 먼저 제시하고 전체 저자 목록과 서지정보를 순서대로 표시합니다. 최성욱 교수(<strong><u>S. Choi</u></strong>)는 저자 목록에서 굵은 밑줄로 표시했습니다. <sup>§</sup>는 공동 1저자(equal contribution), <sup>*</sup>는 교신저자(corresponding author)를 의미합니다.</p>
+<p class="ko-summary" lang="ko">MAI Lab의 연구 기반이 되는 논문들입니다. 최신 논문부터 시간 역순으로 정리했으며, 논문 제목을 먼저 제시하고 전체 저자 목록과 서지정보를 순서대로 표시합니다. <sup>§</sup>는 공동 1저자(equal contribution), <sup>*</sup>는 교신저자(corresponding author)를 의미합니다.</p>
 
 <div class="publication-summary">
   <div><strong>26</strong><span>Peer-reviewed journal articles</span></div>
