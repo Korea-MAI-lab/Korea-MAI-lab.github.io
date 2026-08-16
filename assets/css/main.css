@@ -552,3 +552,87 @@ h3 { font-size: 1.08rem; }
   .focus-grid-visual { grid-template-columns: 1fr; }
   .focus-card-visual .focus-image { height: 170px; }
 }
+
+
+/* =========================================================
+   MAI Lab publication list: title-first, reverse numbering
+   ========================================================= */
+.publications-page { max-width: 980px; }
+.publication-list {
+  margin-top: 2.1rem;
+  border-top: 1px solid var(--line);
+}
+.publication-item {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.35rem 0 1.45rem;
+  border-bottom: 1px solid var(--line);
+}
+.publication-number {
+  padding-top: .12rem;
+  color: var(--crimson);
+  font-size: .92rem;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.01em;
+}
+.publication-title {
+  color: var(--ink);
+  font-size: 1.02rem;
+  line-height: 1.48;
+  font-weight: 700;
+  letter-spacing: -.012em;
+}
+.publication-authors {
+  margin-top: .42rem;
+  color: #484848;
+  font-size: .91rem;
+  line-height: 1.55;
+}
+.publication-authors .pi-author {
+  color: var(--crimson-dark);
+  font-weight: 800;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+.publication-meta {
+  margin-top: .28rem;
+  color: var(--muted);
+  font-size: .88rem;
+  line-height: 1.5;
+}
+.publication-doi {
+  display: inline-block;
+  margin-left: .45rem;
+  color: var(--crimson);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-decoration: none;
+}
+.publication-doi:hover { text-decoration: underline; }
+.publication-note {
+  display: inline-block;
+  margin-top: .48rem;
+  padding: .22rem .48rem;
+  border-radius: .32rem;
+  background: var(--crimson-soft);
+  color: var(--crimson-dark);
+  font-size: .76rem;
+  font-weight: 650;
+}
+/* The publication page now uses a custom static list instead of the
+   default jekyll-scholar rendered bibliography. */
+.publications-page .bibliography { display: none; }
+
+@media (max-width: 620px) {
+  .publication-item {
+    grid-template-columns: 42px minmax(0, 1fr);
+    gap: .65rem;
+    padding: 1.15rem 0 1.25rem;
+  }
+  .publication-number { font-size: .83rem; }
+  .publication-title { font-size: .96rem; }
+  .publication-authors, .publication-meta { font-size: .84rem; }
+}
