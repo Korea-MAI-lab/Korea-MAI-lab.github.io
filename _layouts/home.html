@@ -1,17 +1,36 @@
 ---
 layout: default
 ---
-<section class="hero">
+<section class="hero hero-split">
   <div class="hero-media"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <div class="hero-kicker">KOREA UNIVERSITY · MULTIMODAL BIOIMAGING</div>
-    <h1>MAI Lab</h1>
-    <p class="hero-subtitle">Multimodal Acoustic Imaging Laboratory</p>
-    <p class="hero-copy">Engineering acoustic imaging systems that connect physical contrast, quantitative reconstruction, and biomedical discovery.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
-      <a class="btn btn-secondary" href="{{ '/join/' | relative_url }}">Join MAI Lab</a>
+  <div class="hero-shell">
+    <div class="hero-copy-block">
+      <img class="hero-mark" src="{{ '/assets/img/mai-mark.png' | relative_url }}" alt="MAI Lab mark">
+      <div class="hero-kicker">KOREA UNIVERSITY · MULTIMODAL ACOUSTIC IMAGING</div>
+      <h1>MAI Lab</h1>
+      <p class="hero-subtitle">Multimodal Acoustic Imaging Laboratory</p>
+      <p class="hero-copy">We develop acoustic imaging technologies that connect imaging physics, quantitative reconstruction, artificial intelligence, and biomedical discovery.</p>
+      <p class="hero-copy-ko" lang="ko">고려대학교 MAI Lab은 광음향·초음파·방사선 유도 음향영상과 AI를 결합하여 생체와 에너지 전달 과정을 정량적으로 측정하고 영상화하는 기술을 개발합니다.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
+        <a class="btn btn-secondary" href="{{ '/join/' | relative_url }}">Join MAI Lab</a>
+      </div>
+    </div>
+
+    <div class="hero-science" aria-label="Representative MAI Lab research images">
+      <figure class="hero-tile hero-tile-csf">
+        <img src="{{ '/assets/img/research/csf-depth.jpg' | relative_url }}" alt="Depth-encoded whole-body photoacoustic image">
+        <figcaption>CSF &amp; Glymphatic Imaging</figcaption>
+      </figure>
+      <figure class="hero-tile hero-tile-brain">
+        <img src="{{ '/assets/img/research/brain-angiogram-so2.jpg' | relative_url }}" alt="Whole-brain angiogram and oxygen saturation image">
+        <figcaption>Cerebrovascular Imaging</figcaption>
+      </figure>
+      <figure class="hero-tile hero-tile-radiation">
+        <img src="{{ '/assets/img/research/xfelam-system.jpg' | relative_url }}" alt="X-ray free-electron laser induced acoustic microscopy system">
+        <figcaption>Radiation Acoustics</figcaption>
+      </figure>
+      <p class="hero-credit">Scientific images from MAI Lab publications. Source details are provided on the Research page.</p>
     </div>
   </div>
 </section>

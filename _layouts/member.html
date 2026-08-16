@@ -1,19 +1,25 @@
 ---
 layout: default
 ---
-<article class="member-profile">
-  <div class="member-hero">
+<article class="member-profile page">
+  <div class="member-hero member-hero-profile">
     {% if page.photo %}
-      <img class="member-photo" src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+      <img class="member-photo member-photo-profile" src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
     {% else %}
       <div class="member-photo member-placeholder">{{ page.name | slice: 0 }}</div>
     {% endif %}
-    <div>
+    <div class="member-identity">
+      <p class="eyebrow">PRINCIPAL INVESTIGATOR</p>
       <h1>{{ page.name }}</h1>
-      <p class="member-role">{{ page.role }}</p>
-      {% if page.email %}<p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>{% endif %}
-      {% if page.website %}<p><a href="{{ page.website }}">Personal website ↗</a></p>{% endif %}
+      <p class="member-role member-role-large">{{ page.role }}</p>
+      {% if page.affiliation %}<p class="member-affiliation">{{ page.affiliation }}</p>{% endif %}
+      {% assign contact_email = page.email | default: site.email %}
+      <div class="member-links">
+        {% if contact_email %}<a href="mailto:{{ contact_email }}">Email</a>{% endif %}
+        {% if page.website %}<a href="{{ page.website }}" target="_blank" rel="noopener">Personal website ↗</a>{% endif %}
+      </div>
+      {% if page.short_ko %}<p class="member-short-ko" lang="ko">{{ page.short_ko }}</p>{% endif %}
     </div>
   </div>
-  <div class="prose">{{ content }}</div>
+  <div class="prose member-bio">{{ content }}</div>
 </article>

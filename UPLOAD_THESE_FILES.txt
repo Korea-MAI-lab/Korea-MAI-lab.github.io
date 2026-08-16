@@ -1,0 +1,34 @@
+MAI LAB WEBSITE v3 UPDATE
+=========================
+
+This v3 package adds:
+- PI profile photographs with web-optimized crops
+- a split hero using scientific images from representative publications
+- image-based Research Focus cards
+- an 8-paper Representative Work gallery with source/DOI credits
+- expanded PI biography, education, experience, honors, and academic service
+- publication summary while preserving the complete 25-paper bibliography
+
+IMPORTANT
+---------
+Your currently working GitHub repository already has your correct _config.yml and Pages workflow.
+For the safest update, DO NOT overwrite your current _config.yml unless you intentionally want to re-enter your URL/email settings.
+
+Files/folders to replace or add:
+
+_layouts/home.html
+_layouts/member.html
+_members/seongwook-choi.md
+assets/css/main.css
+assets/img/people/              (new folder/files)
+assets/img/research/            (new folder/files)
+index.md
+people.md
+publications.md
+research.md
+
+Keep your existing:
+_config.yml
+.github/workflows/pages.yml
+
+The existing logo files remain in assets/img/ and are still used by the navigation and hero.
