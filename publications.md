@@ -18,6 +18,15 @@ Peer-reviewed journal publications by Seongwook Choi and collaborators, spanning
 </div>
 
 <div class="publication-list" aria-label="Peer-reviewed publications">
+  <article class="publication-item" id="zhang2026selfsupervised">
+    <div class="publication-number">[26]</div>
+    <div class="publication-content">
+      <div class="publication-title">Self-supervised spatial interpolation for 3D photoacoustic imaging using deep learning</div>
+      <div class="publication-authors">Y. Zhang, S. Li, Y. Wang, Y. Sun, C. Kim, <strong class="pi-author"><u>S. Choi</u></strong>, Y. Su, C. Li</div>
+      <div class="publication-meta"><em>Journal of Innovative Optical Health Sciences</em>, 2026.</div>
+      
+    </div>
+  </article>
   <article class="publication-item" id="choi2026ultrasonics">
     <div class="publication-number">[25]</div>
     <div class="publication-content">
