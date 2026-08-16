@@ -1,0 +1,50 @@
+title: "MAI Lab"
+description: "Multimodal Acoustic Imaging Laboratory"
+url: "https://YOUR-ORG.github.io"
+baseurl: ""
+lang: en
+
+# Korea University official school color is PANTONE 202C.
+# The CSS uses a web-friendly screen approximation.
+
+logo: "/assets/img/mai-logo.png"
+hero_image: "/assets/img/hero.jpg"
+email: "YOUR_EMAIL@korea.ac.kr"
+address: "Korea University, Seoul, Republic of Korea"
+
+collections:
+  members:
+    output: true
+    permalink: /people/:name/
+  news:
+    output: true
+    permalink: /news/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "members"
+    values:
+      layout: member
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: news
+
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: ieee
+  locale: en
+  source: _bibliography
+  bibliography: publications.bib
+  sort_by: year,month
+  order: descending
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
