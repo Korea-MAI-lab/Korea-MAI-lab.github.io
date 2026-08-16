@@ -47,12 +47,6 @@ He received his Ph.D. in Convergence IT Engineering from POSTECH under the super
     <p>Advisor: Prof. Chulhong Kim</p>
   </div>
   <div class="education-card">
-    <span>2016</span>
-    <h3>Robotics Program</h3>
-    <p><strong>RWTH Aachen University</strong>, Germany</p>
-    <p>Robotics for Future Industrial Applications</p>
-  </div>
-  <div class="education-card">
     <span>2013-2018</span>
     <h3>B.S. · Mechanical Engineering</h3>
     <p><strong>POSTECH</strong>, Republic of Korea</p>
