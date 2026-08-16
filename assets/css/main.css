@@ -282,8 +282,8 @@ h3 { font-size: 1.08rem; }
   position: relative;
   min-height: 520px;
   display: grid;
-  grid-template-columns: .8fr 1.2fr;
-  grid-template-rows: 1fr .95fr auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr)) auto;
   gap: .85rem;
 }
 .hero-tile {
@@ -312,10 +312,10 @@ h3 { font-size: 1.08rem; }
   font-weight: 700;
   letter-spacing: .04em;
 }
-.hero-tile-csf { grid-row: 1 / span 2; }
-.hero-tile-csf img { object-position: center; }
-.hero-tile-brain img { object-fit: cover; object-position: center; }
-.hero-tile-radiation img { object-fit: cover; object-position: center 42%; }
+.hero-focus-photoacoustic img { object-fit: cover; object-position: center; }
+.hero-focus-radiacoustic img { object-fit: cover; object-position: center 42%; }
+.hero-focus-ai img { object-fit: cover; object-position: center top; }
+.hero-focus-biomarker img { object-fit: cover; object-position: center; }
 .hero-credit {
   grid-column: 1 / -1;
   margin: .1rem .1rem 0;
@@ -325,7 +325,7 @@ h3 { font-size: 1.08rem; }
 }
 
 /* Research focus cards with images */
-.focus-grid-visual { align-items: stretch; }
+.focus-grid-visual { grid-template-columns: repeat(2, minmax(0,1fr)); align-items: stretch; }
 .focus-card-visual { padding: 0; overflow: hidden; min-height: 420px; }
 .focus-card-visual .focus-image {
   width: 100%; height: 185px; object-fit: cover; display: block;
@@ -333,6 +333,7 @@ h3 { font-size: 1.08rem; }
 }
 .focus-card-visual:nth-child(2) .focus-image { object-fit: contain; padding: .35rem; background: #f7f7f7; }
 .focus-card-visual:nth-child(3) .focus-image { object-position: center top; }
+.focus-card-visual:nth-child(4) .focus-image { object-position: center; }
 .focus-body { padding: 1.35rem 1.45rem 1.45rem; }
 
 /* Highlight cards on home */
@@ -533,7 +534,7 @@ h3 { font-size: 1.08rem; }
 @media (max-width: 720px) {
   .hero-shell { padding: 3rem 1.15rem; }
   .hero-copy-block h1 { font-size: clamp(3.7rem,20vw,5.2rem); }
-  .hero-science { min-height: 420px; grid-template-columns: .82fr 1.18fr; }
+  .hero-science { min-height: 440px; grid-template-columns: 1fr 1fr; }
   .hero-tile figcaption { font-size: .62rem; }
   .highlight-card { grid-template-columns: 1fr; }
   .highlight-card > img { height: 230px; min-height: 0; }
@@ -545,9 +546,9 @@ h3 { font-size: 1.08rem; }
 }
 
 @media (max-width: 520px) {
-  .hero-science { min-height: 520px; grid-template-columns: 1fr 1fr; grid-template-rows: 1.2fr .85fr auto; }
-  .hero-tile-csf { grid-column: 1; grid-row: 1 / span 2; }
+  .hero-science { min-height: 610px; grid-template-columns: 1fr; grid-template-rows: repeat(4, 135px) auto; }
   .hero-credit { font-size: .62rem; }
   .dual-media { grid-template-columns: 1fr; }
+  .focus-grid-visual { grid-template-columns: 1fr; }
   .focus-card-visual .focus-image { height: 170px; }
 }

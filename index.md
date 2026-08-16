@@ -28,8 +28,8 @@ permalink: /
   <article class="focus-card focus-card-visual">
     <img class="focus-image" src="{{ '/assets/img/research/xfelam-system.jpg' | relative_url }}" alt="XFEL-induced acoustic microscopy system">
     <div class="focus-body">
-      <div class="focus-number">02 · RADIATION ACOUSTICS</div>
-      <h3>Radiation-Induced Acoustic Imaging</h3>
+      <div class="focus-number">02 · RADIACOUSTIC IMAGING</div>
+      <h3>Radiacoustic Imaging</h3>
       <p>Acoustic sensing and reconstruction of energy deposition for radiation imaging, dosimetry, and emerging hybrid modalities.</p>
       <p class="card-ko" lang="ko">X-ray 및 치료 방사선의 에너지 침적에서 발생하는 음향신호를 검출하여 영상과 선량 정보로 복원합니다.</p>
     </div>
@@ -38,10 +38,20 @@ permalink: /
   <article class="focus-card focus-card-visual">
     <img class="focus-image" src="{{ '/assets/img/research/hdpact-recovery.jpg' | relative_url }}" alt="AI-enhanced PACT reconstruction from sparse data">
     <div class="focus-body">
-      <div class="focus-number">03 · COMPUTATIONAL IMAGING</div>
-      <h3>AI &amp; Quantitative Reconstruction</h3>
+      <div class="focus-number">03 · AI &amp; QUANTITATIVE IMAGING</div>
+      <h3>AI &amp; Quantitative Imaging</h3>
       <p>Physics-aware reconstruction, signal enhancement, segmentation, and quantitative biomarker extraction from multimodal data.</p>
       <p class="card-ko" lang="ko">물리 모델과 딥러닝을 결합해 저신호·제한시야 문제를 해결하고 정량 바이오마커를 추출합니다.</p>
+    </div>
+  </article>
+
+  <article class="focus-card focus-card-visual">
+    <img class="focus-image" src="{{ '/assets/img/research/tumor-progression.jpg' | relative_url }}" alt="Longitudinal photoacoustic monitoring of tumor progression and quantitative biomarkers">
+    <div class="focus-body">
+      <div class="focus-number">04 · DISEASE MONITORING &amp; BIOMARKERS</div>
+      <h3>Disease Monitoring &amp; Quantitative Biomarkers</h3>
+      <p>Longitudinal imaging of disease progression and treatment response, translating vascular, functional, and molecular information into measurable imaging biomarkers.</p>
+      <p class="card-ko" lang="ko">질환의 진행과 치료 반응을 반복 영상화하고, 혈관 구조·산소화·체내 동태 등의 정보를 정량 바이오마커로 연결합니다.</p>
     </div>
   </article>
 </div>
