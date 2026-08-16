@@ -2,7 +2,7 @@
 name: Seongwook Choi, Ph.D.
 role: Principal Investigator
 order: 1
-email: YOUR_EMAIL@korea.ac.kr
+email: seongwookchoi@korea.ac.kr
 # photo: /assets/img/people/seongwook-choi.jpg
 ---
 
