@@ -636,3 +636,16 @@ h3 { font-size: 1.08rem; }
   .publication-title { font-size: .96rem; }
   .publication-authors, .publication-meta { font-size: .84rem; }
 }
+
+/* Make each publication display as one continuous paragraph */
+.publication-title,
+.publication-authors,
+.publication-meta {
+  display: inline;
+  margin-top: 0;
+}
+
+.publication-title::after,
+.publication-authors::after {
+  content: " ";
+}
