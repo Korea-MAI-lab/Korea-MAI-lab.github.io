@@ -50,13 +50,13 @@ He received his Ph.D. in Convergence IT Engineering from POSTECH under the super
     <span>2013-2018</span>
     <h3>B.S. · Mechanical Engineering</h3>
     <p><strong>POSTECH</strong>, Republic of Korea</p>
-    <p>Cum Laude</p>
   </div>
 </div>
 
 ## Selected Honors &amp; Fellowships
 
 - Editor's Pick, *Biomedical Optics Express* (2025)
+- Top Viewed Article, *Laser & Photonics Reviews* (2025)
 - IEEE Transactions on Medical Imaging Distinguished Reviewer, Bronze Level (2024)
 - NRF Postdoctoral Overseas Training Fellowship (2024-2025)
 - Top Downloaded Article, *Advanced Science* (2023)
@@ -69,4 +69,4 @@ He received his Ph.D. in Convergence IT Engineering from POSTECH under the super
 ## Academic Service
 
 - Early Career Editor, *Biophotonics Discovery* (SPIE)
-- Reviewer for journals including *Nature Communications*, *IEEE Transactions on Medical Imaging*, *Photoacoustics*, *Biomedical Optics Express*, and *Journal of Biomedical Optics*
+- Reviewer for journals including *Nature Communications*, *IEEE Transactions on Medical Imaging*, *Photoacoustics*, *Biomedical Optics Express*, *Journal of Biomedical Optics*, and etc.
