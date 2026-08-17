@@ -175,19 +175,15 @@ permalink: /research/
   <div class="collab-grid" aria-label="Research collaborator institutions">
     <a class="collab-card collab-stanford" href="https://www.stanford.edu/" target="_blank" rel="noopener">
       <div class="collab-mark">Stanford</div>
-      <span>Stanford University</span>
     </a>
     <a class="collab-card collab-postech" href="https://www.postech.ac.kr/" target="_blank" rel="noopener">
       <div class="collab-mark">POSTECH</div>
-      <span>Pohang University of Science and Technology</span>
     </a>
     <a class="collab-card collab-snuh" href="https://www.snuh.org/" target="_blank" rel="noopener">
-      <div class="collab-mark">SNUH</div>
-      <span>Seoul National University Hospital</span>
+      <div class="collab-mark">Seoul National University Hospital</div>
     </a>
     <a class="collab-card collab-kist" href="https://www.kist.re.kr/" target="_blank" rel="noopener">
-      <div class="collab-mark">KIST</div>
-      <span>Korea Institute of Science and Technology</span>
+      <div class="collab-mark">Korea Institute of Science and Technology</div>
     </a>
   </div>
   <p class="collab-disclaimer">Institution names indicate research relationships or networks at the project/researcher level and do not imply institutional endorsement.</p>
