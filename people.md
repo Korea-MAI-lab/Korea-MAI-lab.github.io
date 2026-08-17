@@ -22,7 +22,6 @@ permalink: /people/
   </a>
 {% endfor %}
   <div class="member-card recruiting-card">
-  <div class="recruiting-icon">+</div>
 
   <div class="member-info">
     <div class="recruiting-label">OPEN POSITIONS</div>
