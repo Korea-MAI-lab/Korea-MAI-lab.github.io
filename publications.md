@@ -7,9 +7,7 @@ permalink: /publications/
 <p class="eyebrow">PUBLICATIONS</p>
 # Publications
 
-Peer-reviewed journal publications by Seongwook Choi and collaborators, spanning photoacoustic imaging, ultrasound, radiacoustic imaging, quantitative imaging, AI-enhanced biomedical imaging, and translational applications.
-
-<p class="ko-summary" lang="ko">MAI Lab의 연구 기반이 되는 논문들입니다. <sup>§</sup>는 공동 1저자(equal contribution), <sup>*</sup>는 교신저자(corresponding author)를 의미합니다.</p>
+  <p class="ko-summary" lang="ko">Peer-reviewed journal publications by Seongwook Choi and collaborators, spanning photoacoustic imaging, ultrasound, radiacoustic imaging, quantitative imaging, AI-enhanced biomedical imaging, and translational applications.</p>
 
 <div class="publication-summary">
   <div><strong>26</strong><span>Peer-reviewed journal articles</span></div>
