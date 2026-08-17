@@ -747,66 +747,40 @@ h3 { font-size: 1.08rem; }
 
 /* Recruiting card in People page */
 .recruiting-card {
-  border: 1.5px dashed var(--crimson);
-  background: linear-gradient(
-    145deg,
-    rgba(138, 21, 56, 0.035),
-    rgba(138, 21, 56, 0.08)
-  );
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
   text-align: center;
+  padding: 2rem 1.6rem;
 }
 
-.recruiting-icon {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto 1.2rem;
-  border-radius: 50%;
-  background: var(--crimson);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1;
-}
-
-.recruiting-label {
-  color: var(--crimson);
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  margin-bottom: 0.5rem;
-}
-
-.recruiting-card h3 {
-  margin: 0 0 0.8rem;
+.recruiting-title {
+  display: block;
   font-size: 1.35rem;
+  margin-bottom: 1rem;
 }
 
 .recruiting-positions {
   font-weight: 600;
-  color: #333;
+  line-height: 1.55;
+  margin-bottom: 1rem;
+}
+
+.recruiting-description {
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
 }
 
 .recruiting-ko {
-  font-size: 0.9rem;
-  color: #666;
-  margin-top: 0.7rem;
+  color: #777;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin-bottom: 1.3rem;
 }
 
 .recruiting-link {
-  display: inline-block;
-  margin-top: 0.7rem;
   color: var(--crimson);
   font-weight: 700;
-  text-decoration: none;
-}
-
-.recruiting-link:hover {
-  text-decoration: underline;
+  margin-top: 0.3rem;
 }
