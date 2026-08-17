@@ -111,6 +111,22 @@ permalink: /
   </a>
 </div>
 
+<section class="home-collaborators">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">COLLABORATION</p>
+      <h2>Research Collaborators</h2>
+    </div>
+    <a href="{{ '/research/#collaborators' | relative_url }}">Collaborative network →</a>
+  </div>
+  <div class="collab-grid collab-grid-home">
+    <div class="collab-card collab-stanford"><div class="collab-mark">Stanford</div><span>Stanford University</span></div>
+    <div class="collab-card collab-postech"><div class="collab-mark">POSTECH</div><span>POSTECH</span></div>
+    <div class="collab-card collab-snuh"><div class="collab-mark">SNUH</div><span>Seoul National University Hospital</span></div>
+    <div class="collab-card collab-kist"><div class="collab-mark">KIST</div><span>Korea Institute of Science and Technology</span></div>
+  </div>
+</section>
+
 <div class="section-head">
   <h2>Latest News</h2>
   <a href="{{ '/news/' | relative_url }}">View all →</a>

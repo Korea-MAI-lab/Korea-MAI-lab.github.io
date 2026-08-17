@@ -110,6 +110,7 @@ permalink: /research/
         <h3>Multiplane spectroscopic whole-body PACT</h3>
         <p>Continuous rotary scanning extends tomographic coverage for high-resolution structural, functional, and pharmacokinetic small-animal imaging.</p>
         <a href="https://doi.org/10.1002/lpor.202400672" target="_blank" rel="noopener">Laser &amp; Photonics Reviews ↗</a>
+        <div class="work-awards"><span class="pub-badge">Wiley Top Viewed Article 2025</span></div>
         <small>Figure reproduced from Yang et al., <em>Laser &amp; Photonics Reviews</em> 19, 2400672 (2025), CC BY-NC-ND 4.0.</small>
       </div>
     </article>
@@ -143,6 +144,7 @@ permalink: /research/
         <h3>Deep learning enhanced multiparametric dynamic volumetric PACT</h3>
         <p>A 3D progressive U-Net recovers limited-view volumetric information and enables high-speed structural, functional, and contrast-enhanced imaging.</p>
         <a href="https://doi.org/10.1002/advs.202202089" target="_blank" rel="noopener">Advanced Science ↗</a>
+        <div class="work-awards"><span class="pub-badge">Back Cover</span><span class="pub-badge">Wiley Top Downloaded Article</span></div>
         <small>Figure adapted from Choi et al., <em>Advanced Science</em> 10, 2202089 (2023), CC BY 4.0.</small>
       </div>
     </article>
@@ -158,5 +160,36 @@ permalink: /research/
       </div>
     </article>
   </div>
+</section>
+
+<section class="collaborators-section" id="collaborators">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">COLLABORATIVE RESEARCH</p>
+      <h2>Research Collaborators &amp; Networks</h2>
+    </div>
+  </div>
+  <p class="collab-intro">MAI Lab grows through project-level collaborations across biomedical imaging, radiology, nuclear medicine, nanotechnology, and translational science.</p>
+  <p class="collab-intro collab-intro-ko" lang="ko">국내외 연구진과의 공동연구를 통해 영상 시스템 개발부터 AI, 전임상·임상 검증까지 연구 범위를 확장합니다.</p>
+
+  <div class="collab-grid" aria-label="Research collaborator institutions">
+    <a class="collab-card collab-stanford" href="https://www.stanford.edu/" target="_blank" rel="noopener">
+      <div class="collab-mark">Stanford</div>
+      <span>Stanford University</span>
+    </a>
+    <a class="collab-card collab-postech" href="https://www.postech.ac.kr/" target="_blank" rel="noopener">
+      <div class="collab-mark">POSTECH</div>
+      <span>Pohang University of Science and Technology</span>
+    </a>
+    <a class="collab-card collab-snuh" href="https://www.snuh.org/" target="_blank" rel="noopener">
+      <div class="collab-mark">SNUH</div>
+      <span>Seoul National University Hospital</span>
+    </a>
+    <a class="collab-card collab-kist" href="https://www.kist.re.kr/" target="_blank" rel="noopener">
+      <div class="collab-mark">KIST</div>
+      <span>Korea Institute of Science and Technology</span>
+    </a>
+  </div>
+  <p class="collab-disclaimer">Institution names indicate research relationships or networks at the project/researcher level and do not imply institutional endorsement.</p>
 </section>
 </div>

@@ -555,97 +555,187 @@ h3 { font-size: 1.08rem; }
 
 
 /* =========================================================
-   MAI Lab publication list: title-first, reverse numbering
+   MAI Lab v3.2: publication highlights, recognition, collaborators
    ========================================================= */
-.publications-page { max-width: 980px; }
-.publication-list {
-  margin-top: 2.1rem;
-  border-top: 1px solid var(--line);
-}
-.publication-item {
-  display: grid;
-  grid-template-columns: 56px minmax(0, 1fr);
-  gap: 1rem;
-  padding: 1.35rem 0 1.45rem;
-  border-bottom: 1px solid var(--line);
-}
-.publication-number {
-  padding-top: .12rem;
-  color: var(--crimson);
-  font-size: .92rem;
-  font-weight: 750;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -.01em;
-}
-.publication-title {
-  color: var(--ink);
-  font-size: 1.02rem;
-  line-height: 1.48;
-  font-weight: 700;
-  letter-spacing: -.012em;
-}
-.publication-authors {
-  margin-top: .42rem;
-  color: #484848;
-  font-size: .91rem;
-  line-height: 1.55;
-}
-.publication-authors .pi-author {
-  color: var(--crimson-dark);
-  font-weight: 800;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 2px;
-}
-.publication-meta {
-  margin-top: .28rem;
-  color: var(--muted);
-  font-size: .88rem;
-  line-height: 1.5;
-}
-.publication-doi {
-  display: inline-block;
-  margin-left: .45rem;
-  color: var(--crimson);
-  font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-  text-decoration: none;
-}
-.publication-doi:hover { text-decoration: underline; }
-.publication-note {
-  display: inline-block;
-  margin-top: .48rem;
-  padding: .22rem .48rem;
-  border-radius: .32rem;
-  background: var(--crimson-soft);
-  color: var(--crimson-dark);
-  font-size: .76rem;
-  font-weight: 650;
-}
-/* The publication page now uses a custom static list instead of the
-   default jekyll-scholar rendered bibliography. */
-.publications-page .bibliography { display: none; }
 
-@media (max-width: 620px) {
-  .publication-item {
-    grid-template-columns: 42px minmax(0, 1fr);
-    gap: .65rem;
-    padding: 1.15rem 0 1.25rem;
-  }
-  .publication-number { font-size: .83rem; }
-  .publication-title { font-size: .96rem; }
-  .publication-authors, .publication-meta { font-size: .84rem; }
-}
-
-/* Make each publication display as one continuous paragraph */
+/* Publications: one continuous paragraph per paper */
 .publication-title,
 .publication-authors,
 .publication-meta {
   display: inline;
   margin-top: 0;
 }
-
 .publication-title::after,
 .publication-authors::after {
   content: " ";
+}
+.publication-note {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-left: .45rem;
+  vertical-align: baseline;
+}
+.pub-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: .19rem .47rem;
+  border-radius: 999px;
+  border: 1px solid rgba(138,21,56,.22);
+  background: #fbf3f6;
+  color: var(--crimson);
+  font-size: .67rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: .015em;
+  white-space: nowrap;
+}
+.author-mark {
+  color: var(--crimson);
+  font-weight: 700;
+  font-size: .72em;
+  margin-left: .05em;
+}
+
+/* Publication cover showcase */
+.publication-showcase {
+  margin: 2.4rem 0 2.5rem;
+}
+.compact-head { margin-bottom: .9rem; }
+.cover-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 1rem;
+}
+.cover-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: .9rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(20,0,6,.05);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.cover-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(138,21,56,.35);
+  box-shadow: 0 14px 34px rgba(55,0,16,.10);
+}
+.cover-card > img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  display: block;
+  background: #f6f6f6;
+}
+.cover-copy { padding: 1rem 1.05rem 1.1rem; }
+.cover-copy h3 { margin: .55rem 0 .4rem; font-size: .98rem; }
+.cover-copy p { margin: 0; color: #666; font-size: .8rem; line-height: 1.45; }
+
+.recognition-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .8rem;
+  margin-top: 1rem;
+}
+.recognition-card {
+  display: flex;
+  align-items: flex-start;
+  gap: .85rem;
+  padding: 1rem 1.05rem;
+  border-radius: .8rem;
+  border: 1px solid rgba(138,21,56,.12);
+  background: linear-gradient(135deg,#fff 0%,#fbf5f7 100%);
+}
+.recognition-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--crimson);
+  color: #fff;
+  font-size: .85rem;
+}
+.recognition-card strong { color: var(--crimson); font-size: .88rem; }
+.recognition-card p { margin: .28rem 0 0; color: #666; font-size: .79rem; line-height: 1.45; }
+
+.work-awards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: .75rem;
+}
+
+/* Research collaborator network */
+.home-collaborators,
+.collaborators-section {
+  margin-top: 3rem;
+}
+.collab-intro { max-width: 840px; color: #555; }
+.collab-intro-ko { margin-top: -.2rem; }
+.collab-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: .8rem;
+  margin-top: 1rem;
+}
+.collab-card {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .65rem;
+  padding: 1.15rem .85rem;
+  border: 1px solid var(--line);
+  border-radius: .8rem;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  text-align: center;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+.collab-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(138,21,56,.3);
+  box-shadow: 0 10px 26px rgba(30,0,8,.07);
+}
+.collab-mark {
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -.03em;
+  font-size: 1.45rem;
+}
+.collab-card > span {
+  color: #777;
+  font-size: .72rem;
+  line-height: 1.3;
+}
+.collab-stanford .collab-mark { color: #8c1515; font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
+.collab-postech .collab-mark { color: #a61955; font-size: 1.65rem; font-style: italic; letter-spacing: -.055em; }
+.collab-snuh .collab-mark { color: #0c4a78; letter-spacing: .02em; }
+.collab-kist .collab-mark { color: #124b7d; letter-spacing: .015em; }
+.collab-disclaimer {
+  margin-top: .75rem;
+  color: #8a8a8a;
+  font-size: .7rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .cover-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .collab-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 620px) {
+  .cover-grid,
+  .recognition-grid,
+  .collab-grid { grid-template-columns: 1fr; }
+  .cover-card > img { aspect-ratio: auto; max-height: 520px; }
+  .publication-note { margin-left: .15rem; margin-top: .22rem; }
 }

@@ -1,34 +1,27 @@
-MAI LAB WEBSITE v3 UPDATE
-=========================
+MAI Lab v3.2 update
 
-This v3 package adds:
-- PI profile photographs with web-optimized crops
-- a split hero using scientific images from representative publications
-- image-based Research Focus cards
-- an 8-paper Representative Work gallery with source/DOI credits
-- expanded PI biography, education, experience, honors, and academic service
-- publication summary while preserving the complete 25-paper bibliography
+Upload/replace these paths in your existing GitHub repository:
 
-IMPORTANT
----------
-Your currently working GitHub repository already has your correct _config.yml and Pages workflow.
-For the safest update, DO NOT overwrite your current _config.yml unless you intentionally want to re-enter your URL/email settings.
+1. index.md
+2. research.md
+3. publications.md
+4. assets/css/main.css
+5. assets/img/research/hdpact-recovery.jpg
+6. assets/img/research/SOURCES.md
+7. assets/img/publications/chemical-reviews-2023-cover.jpeg
+8. assets/img/publications/advanced-science-dlpact-2023-back-cover.jpg
+9. assets/img/publications/acs-nano-2024-cover.jpeg
+10. assets/img/publications/SOURCES.md
+11. assets/img/collaborators/README.md
 
-Files/folders to replace or add:
+No changes are required to:
+- _config.yml
+- .github/workflows/pages.yml
+- People/profile files
+- MAI logo assets
 
-_layouts/home.html
-_layouts/member.html
-_members/seongwook-choi.md
-assets/css/main.css
-assets/img/people/              (new folder/files)
-assets/img/research/            (new folder/files)
-index.md
-people.md
-publications.md
-research.md
-
-Keep your existing:
-_config.yml
-.github/workflows/pages.yml
-
-The existing logo files remain in assets/img/ and are still used by the navigation and hero.
+Design choices in v3.2:
+- Corrected HD-PACT figure using Figure 3 from the actual hybrid diffusion paper.
+- Added publication cover gallery.
+- Added Wiley Top Viewed / Top Downloaded recognition as compact badges instead of certificate images.
+- Added Research Collaborators & Networks sections using text-based institution marks; approved official logo assets can be substituted later.
