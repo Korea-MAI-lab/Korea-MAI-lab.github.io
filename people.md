@@ -23,3 +23,29 @@ permalink: /people/
 {% endfor %}
 </div>
 </div>
+
+<div class="member-card recruiting-card">
+  <div class="recruiting-icon">+</div>
+
+  <div class="member-info">
+    <div class="recruiting-label">OPEN POSITIONS</div>
+
+    <h3>We are recruiting!</h3>
+
+    <p class="recruiting-positions">
+      Undergraduate Researchers · M.S. · Ph.D. Students
+    </p>
+
+    <p>
+      Interested in imaging, AI, acoustics, or biomedical applications?
+    </p>
+
+    <p class="recruiting-ko">
+      MAI Lab에서 함께 연구할 학부연구생 및 대학원생을 모집합니다.
+    </p>
+
+    <a class="recruiting-link" href="{{ '/join/' | relative_url }}">
+      Join MAI Lab →
+    </a>
+  </div>
+</div>
