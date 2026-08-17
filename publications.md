@@ -17,61 +17,6 @@ Peer-reviewed journal publications by Seongwook Choi and collaborators, spanning
   <div><strong>Multimodal</strong><span>Acoustic · Optical · X-ray · AI</span></div>
 </div>
 
-<section class="publication-showcase" aria-labelledby="publication-highlights">
-  <div class="section-head compact-head">
-    <div>
-      <p class="eyebrow">SELECTED RECOGNITION</p>
-      <h2 id="publication-highlights">Publication Highlights</h2>
-    </div>
-  </div>
-
-  <div class="cover-grid">
-    <a class="cover-card" href="https://doi.org/10.1021/acs.chemrev.2c00627" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/publications/chemical-reviews-2023-cover.jpeg' | relative_url }}" alt="Chemical Reviews cover featuring contrast-enhanced photoacoustic imaging">
-      <div class="cover-copy">
-        <span class="pub-badge">Supplementary Cover</span>
-        <h3>Chemical Reviews · 2023</h3>
-        <p>Recent Advances in Contrast-Enhanced Photoacoustic Imaging</p>
-      </div>
-    </a>
-
-    <a class="cover-card" href="https://doi.org/10.1002/advs.202202089" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/publications/advanced-science-dlpact-2023-back-cover.jpg' | relative_url }}" alt="Advanced Science back cover featuring DL-PACT">
-      <div class="cover-copy">
-        <span class="pub-badge">Back Cover</span>
-        <h3>Advanced Science · 2023</h3>
-        <p>Deep Learning Enhanced Multiparametric Dynamic Volumetric PACT</p>
-      </div>
-    </a>
-
-    <a class="cover-card" href="https://doi.org/10.1021/acsnano.3c12551" target="_blank" rel="noopener">
-      <img src="{{ '/assets/img/publications/acs-nano-2024-cover.jpeg' | relative_url }}" alt="ACS Nano cover featuring multiparametric tumor photoacoustic imaging">
-      <div class="cover-copy">
-        <span class="pub-badge">Supplementary Cover</span>
-        <h3>ACS Nano · 2024</h3>
-        <p>3D Multiparametric PACT of Primary and Metastatic Tumors</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="recognition-grid">
-    <div class="recognition-card">
-      <span class="recognition-icon" aria-hidden="true">★</span>
-      <div>
-        <strong>Wiley Top Viewed Article 2025</strong>
-        <p>Multiplane Spectroscopic Whole-Body Photoacoustic Computed Tomography of Small Animals In Vivo</p>
-      </div>
-    </div>
-    <div class="recognition-card">
-      <span class="recognition-icon" aria-hidden="true">★</span>
-      <div>
-        <strong>Wiley Top Downloaded Article</strong>
-        <p>Deep Learning Enhances Multiparametric Dynamic Volumetric Photoacoustic Computed Tomography In Vivo (DL-PACT)</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <p class="publication-legend"><sup>§</sup> Equal contribution (co-first author) &nbsp;·&nbsp; <sup>*</sup> Corresponding author(s)</p>
 
 <div class="publication-list" aria-label="Peer-reviewed publications">
