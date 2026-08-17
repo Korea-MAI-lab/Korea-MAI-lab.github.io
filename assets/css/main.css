@@ -739,3 +739,8 @@ h3 { font-size: 1.08rem; }
   .cover-card > img { aspect-ratio: auto; max-height: 520px; }
   .publication-note { margin-left: .15rem; margin-top: .22rem; }
 }
+
+.pi-author,
+.pi-author u {
+  color: var(--crimson) !important;
+}
