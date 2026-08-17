@@ -21,10 +21,7 @@ permalink: /people/
     <div class="member-role">{{ member.role }}</div>
   </a>
 {% endfor %}
-</div>
-</div>
-
-<div class="member-card recruiting-card">
+  <div class="member-card recruiting-card">
   <div class="recruiting-icon">+</div>
 
   <div class="member-info">
@@ -48,4 +45,6 @@ permalink: /people/
       Join MAI Lab →
     </a>
   </div>
+</div>
+</div>
 </div>
