@@ -22,7 +22,7 @@ permalink: /join/
       현재 전공이 완벽히 일치하지 않아도 괜찮습니다.
       새로운 영상기술을 직접 만들고, 물리·하드웨어·소프트웨어·AI를 함께 배우며
       실제 biomedical problem에 적용해보고 싶은 학생을 환영합니다.<br>
-      <strong>이수 추천 과목</strong>: 신호및시스템, 센서및계측, Computer vision, 전산및제도/CAD, etc.
+      <strong>이수 추천 과목</strong>: 신호및시스템, 센서및계측, Computer vision, AI, 전산및제도/CAD, etc.
     </div>
   </section>
 
